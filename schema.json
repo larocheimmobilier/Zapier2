@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ContenuSocialMedia",
+  "type": "object",
+  "properties": {
+    "Titre": {
+      "type": "string",
+      "description": "Le titre principal du contenu, accrocheur et pertinent."
+    },
+    "Script": {
+      "type": "string",
+      "description": "Le script complet à dire ou publier."
+    },
+    "Hashtag": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Liste de hashtags pertinents."
+    }
+  },
+  "required": ["Titre", "Script", "Hashtag"]
+}
