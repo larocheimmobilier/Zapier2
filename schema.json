@@ -12,10 +12,7 @@
       "description": "Le script complet à dire ou publier."
     },
     "Hashtag": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
+      "type": "string",
       "description": "Liste de hashtags pertinents."
     }
   },
